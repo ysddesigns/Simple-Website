@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Contact Us</h1>
+    </header>
+
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+
+    <section>
+      <p id="main-paragraph">
+        For any inquiries or assistance, feel free to reach out to us.
+      </p>
+      <p class="secondary-paragraph">
+        We are here to provide support to both prospective and current students.
+      </p>
+    </section>
+
+    <section>
+      <form>
+        <fieldset>
+          <legend>Personal Information</legend>
+          <label>First Name: <input type="text" required /></label>
+          <label>Surname: <input type="text" required /></label>
+          <label>Date of Birth: <input type="date" required /></label>
+          <label>Gender: <input type="text" required /></label>
+          <label>Phone Number: <input type="tel" required /></label>
+          <label>Favorite Decade: <input type="text" required /></label>
+          <label>Password: <input type="password" required /></label>
+        </fieldset>
+
+        <fieldset>
+          <legend>Preferences</legend>
+          <p>Best Pet:</p>
+          <label><input type="radio" name="pet" /> Cat</label>
+          <label><input type="radio" name="pet" /> Dog</label>
+          <label><input type="radio" name="pet" /> Fish</label>
+
+          <p>Best Lectures:</p>
+          <label><input type="checkbox" /> Lecturer A</label>
+          <label><input type="checkbox" /> Lecturer B</label>
+          <label><input type="checkbox" /> Lecturer C</label>
+
+          <p>Programs:</p>
+          <select required>
+            <option>Bachelor of Science</option>
+            <option>Bachelor of Arts</option>
+            <option>Master’s Programs</option>
+          </select>
+        </fieldset>
+
+        <fieldset>
+          <legend>Feedback</legend>
+          <textarea rows="4" required></textarea>
+        </fieldset>
+
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+      </form>
+    </section>
+  </body>
+</html>

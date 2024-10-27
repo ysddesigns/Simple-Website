@@ -1,0 +1,100 @@
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+/* Header and navigation */
+header {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+}
+
+nav {
+  text-align: center;
+  margin: 10px 0;
+}
+
+nav a {
+  margin: 0 15px;
+  color: #333;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #4caf50;
+}
+
+/* Paragraph styling */
+p {
+  padding: 10px;
+}
+
+p#main-paragraph {
+  color: #ff6600;
+}
+
+p.secondary-paragraph {
+  color: #4caf50;
+}
+
+/* Table styling */
+table {
+  width: 80%;
+  margin: 20px auto;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+/* Form styling */
+form {
+  width: 80%;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+}
+
+fieldset {
+  margin-bottom: 15px;
+  padding: 10px;
+}
+
+input,
+select,
+textarea {
+  display: block;
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 5px 2px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* List styling */
+ol,
+ul,
+dl {
+  padding: 10px 20px;
+}
